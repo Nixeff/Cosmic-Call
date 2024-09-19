@@ -1,0 +1,45 @@
+*{
+    background-color: black;
+    font-family: determination;
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size:25px;
+}
+@font-face{
+    font-family: determination;
+    src: url(font/DeterminationSansWeb.woff);
+}
+body{
+    width:100%;
+    background-image: url("bilder/brick.png");
+    background-size: 80px;
+    overflow-x: hidden;
+}
+.container{
+    background-image: url("bilder/brick.png");
+    background-size: 80px;
+    width: 960px;
+    padding-left:auto;
+    margin-left:auto;
+    padding-right:auto;
+    margin-right:auto;
+}
+#canvas{
+    top:-100px;
+}
+.wall2{
+    position: relative;
+    top: 23px;
+}
+.level{
+    top:-10px;
+    position: absolute;
+    background-color: unset;
+}
